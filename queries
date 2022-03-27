@@ -1,0 +1,13 @@
+/**
+ * query{
+ * neighborhoods{
+ * where:{
+ * _and:[
+ * {averageAge: {_gt: 25}},
+ * {averageAge: {_lt: 40}},
+ * {distanceFromCityCenter: {_lt: 10}},
+ * ]
+ * }
+ * neighborhood
+ * }}
+ */
